@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Steps from './components/sections/Steps/Steps'
 import pageLogo from './images/logo-white.png'
 import img1 from './images/1.jpg'
 import img2 from './images/2.jpg'
@@ -69,7 +70,7 @@ function App() {
       </section>
 
       <section className="section-meals">
-        <ul className="meals-showcase">
+        <ul className="meals-showcase clearfix">
           <li>
             <figure className="meal-photo">
               <img src={img1} alt="Image 1" />
@@ -94,7 +95,7 @@ function App() {
         <ul>
           <li></li>
         </ul>
-        <ul className="meals-showcase">
+        <ul className="meals-showcase clearfix">
           <li>
             <figure className="meal-photo">
               <img src={img5} alt="Image 5" />
@@ -116,10 +117,8 @@ function App() {
             </figure>
           </li>
         </ul>
-        <ul>
-          <li></li>
-        </ul>
-      </section>
+     </section>
+      <Steps />
     </div>
   );
 }

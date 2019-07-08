@@ -14,6 +14,15 @@ html {
   color: #555;
 }
 
+.clearfix{  zoom:1  }
+.clearfix:after{
+  content:'.';
+  clear:both;
+  display: block;
+  height:0;
+  visibility: hidden;
+}
+
 /* ------------------------- */
 /*  REUSABLE COMPONENTS */
 /* ------------------------- */
@@ -107,6 +116,7 @@ header{
   background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url('./images//hero.jpg');
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   height:100vh;
 }
 
