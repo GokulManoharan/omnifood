@@ -2,17 +2,6 @@
 #cf6d17
 */
 
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    font-size: 20px;
-  }
-  
-  html {
-    background-color: #FFF;
-    color: #555;
-  }
 
   .section-steps{
       margin-top:0;
@@ -76,5 +65,10 @@
     height:50px;
     width: auto;
     margin-right: 10px;
+  }
+
+  .btn-app:link,
+  .btn-app:visited{
+    border:0;
   }
 

@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import Steps from './components/sections/Steps/Steps'
+import Cities from './components/sections/Cities/Cities'
+
 import pageLogo from './images/logo-white.png'
 import img1 from './images/1.jpg'
 import img2 from './images/2.jpg'
@@ -119,6 +121,7 @@ function App() {
         </ul>
      </section>
       <Steps />
+      <Cities />
     </div>
   );
 }
