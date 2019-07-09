@@ -23,7 +23,7 @@
       .steps-box:last-child{margin-top: 10px;}
       .works-step{ margin-bottom: 40px }
       .works-step:last-of-type{  margin-bottom: 60px; }
-      .app-screen{width: 70%;}
+      .app-screen{width: 60%;}
 }
 
 /* Bog tablets to 1300px(Widths smalle than the 1140px row) */
