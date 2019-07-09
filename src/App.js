@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './queries.css'
 import Steps from './components/sections/Steps/Steps'
 import Cities from './components/sections/Cities/Cities'
 import Testimonials from './components/sections/Testimonials/Testimonials'

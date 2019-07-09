@@ -58,7 +58,7 @@ function SignUp(){
                         <div>
                             <h3>Starter</h3>
                             <p className="plan-price">19$<span> / meal</span></p>
-                            <p className="plan-price-meal"></p>
+                            <p className="plan-price-meal">&nbsp;</p>
                         </div>
                         <div>
                             <ul>

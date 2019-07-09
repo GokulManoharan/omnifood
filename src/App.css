@@ -122,9 +122,9 @@ header{
 
 .hero-text-box{
   position: absolute;
-  widows: 1140px;
+  width: 1140px;
   top:50%;
-  left:35%;
+  left:55%;
   transform: translate(-50%,-50%);
 }
 
