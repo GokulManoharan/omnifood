@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css';
 import Steps from './components/sections/Steps/Steps'
 import Cities from './components/sections/Cities/Cities'
+import Testimonials from './components/sections/Testimonials/Testimonials'
+import SignUp from './components/sections/SignUp/SignUp'
+import ContactForm from './components/sections/ContactForm/ContactForm'
+import Footer from './components/sections/Footer/Footer'
 
 import pageLogo from './images/logo-white.png'
 import img1 from './images/1.jpg'
@@ -94,9 +98,6 @@ function App() {
             </figure>
           </li>
         </ul>
-        <ul>
-          <li></li>
-        </ul>
         <ul className="meals-showcase clearfix">
           <li>
             <figure className="meal-photo">
@@ -122,6 +123,10 @@ function App() {
      </section>
       <Steps />
       <Cities />
+      <Testimonials />
+      <SignUp />
+      <ContactForm />
+      <Footer />
     </div>
   );
 }

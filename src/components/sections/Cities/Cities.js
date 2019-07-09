@@ -80,27 +80,3 @@ function Cities () {
 }
 
 export default Cities
-
-
-/*
-Lisbon
-1600+ happy eaters
-60+ top chefs
-@omnifood_lx
-
-San Francisco
-3700+ happy eaters
-160+ top chefs
-@omnifood_sf
-
-Berlin
-2300+ happy eaters
-110+ top chefs
-@omnifood_berlin
-
-London
-1200+ happy eaters
-50+ top chefs
-@omnifood_london
-
-*/

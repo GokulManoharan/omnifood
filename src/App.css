@@ -205,7 +205,8 @@ h3{
 /* ---------------------- */
 
 .btn:link,
-.btn:visited{
+.btn:visited,
+.btn[type=submit]{
   display:inline-block;
   padding: 10px 30px;
   font-weight: 300;
@@ -217,7 +218,8 @@ h3{
 }
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+.btn[type=submit]{
   background-color: #e67e22;
   margin-right: 15px;
 }
@@ -229,7 +231,8 @@ h3{
 }
 
 .btn:hover,
-.btn:active{
+.btn:active
+{
   background-color: #cf6d17;
 }
 
