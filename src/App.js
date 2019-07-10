@@ -1,6 +1,4 @@
 import React from 'react';
-import './App.css';
-import './queries.css'
 import Header from './components/sections/Header/Header'
 import Features from './components/sections/Features/Features'
 import Meals from './components/sections/Meals/Meals'
@@ -10,6 +8,8 @@ import Testimonials from './components/sections/Testimonials/Testimonials'
 import SignUp from './components/sections/SignUp/SignUp'
 import ContactForm from './components/sections/ContactForm/ContactForm'
 import Footer from './components/sections/Footer/Footer'
+import './App.css';
+import './queries.css'
 
 function App() {
   return (
