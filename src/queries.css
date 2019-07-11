@@ -109,4 +109,5 @@
   body{overflow-x: hidden;}
   input[type=text], input[type=email], select, textarea { width: 75%; }
   .btn-ghost:link, .btn-ghost:visited { margin: 10px 0px 0px 0px; }
+  .works-step p{ font-size: 15px; }
 }
