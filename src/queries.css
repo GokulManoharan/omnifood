@@ -92,8 +92,9 @@
 
   blockquote:before{
     font-size: 300%;
-    top: 0px;
+    top: 5px;
     left:-5px;
+    bottom:5px;
   } 
   .footer-nav a,
   .footer p{ font-size: 75%; }
@@ -101,8 +102,11 @@
 }
 /* Small phones : from 0 to 480px */
 @media only screen and (max-width: 480px) {
+  h1{ font-size:120%; }
   section{ padding:25px; }
   .contact-form{ width:100%; }
   .footer-nav{ font-size: 90%; }
   body{overflow-x: hidden;}
+  input[type=text], input[type=email], select, textarea { width: 75%; }
+  .btn-ghost:link, .btn-ghost:visited { margin: 10px 0px 0px 0px; }
 }
