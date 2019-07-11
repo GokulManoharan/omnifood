@@ -95,9 +95,14 @@
     top: 0px;
     left:-5px;
   } 
+  .footer-nav a,
+  .footer p{ font-size: 75%; }
 
 }
 /* Small phones : from 0 to 480px */
 @media only screen and (max-width: 480px) {
-
+  section{ padding:25px; }
+  .contact-form{ width:100%; }
+  .footer-nav{ font-size: 90%; }
+  body{overflow-x: hidden;}
 }
