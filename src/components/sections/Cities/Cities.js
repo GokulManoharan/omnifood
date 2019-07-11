@@ -42,7 +42,8 @@ function Cities () {
                         <Star className="icon-small" fontSize="25px" color="#cf6d17"/> 160+ top chefs
                    </div>
                    <div className="city-features" >
-                   <a href="#"><Twitter className="icon-small" fontSize="25px" color="#cf6d17"/> @omnifood_sf</a>
+                   <Twitter className="icon-small" fontSize="25px" color="#cf6d17"/>
+                   <a href="#"> @omnifood_sf</a>
                    </div>
                 </div>
 
@@ -56,7 +57,8 @@ function Cities () {
                         <Star className="icon-small" fontSize="25px" color="#cf6d17"/> 100+ top chefs
                    </div>
                    <div className="city-features" >
-                   <a href="#"><Twitter className="icon-small" fontSize="25px" color="#cf6d17"/> @omnifood_berlin</a>
+                   <Twitter className="icon-small" fontSize="25px" color="#cf6d17"/>
+                   <a href="#"> @omnifood_berlin</a>
                    </div>
                 </div>
 
@@ -70,7 +72,8 @@ function Cities () {
                         <Star className="icon-small" fontSize="25px" color="#cf6d17"/> 80+ top chefs
                    </div>
                    <div className="city-features" >
-                   <a href="#"><Twitter className="icon-small" fontSize="25px" color="#cf6d17"/> @omnifood_london</a>
+                   <Twitter className="icon-small" fontSize="25px" color="#cf6d17"/> 
+                   <a href="#">@omnifood_london</a>
                    </div>
                 </div>
                
