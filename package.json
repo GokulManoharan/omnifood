@@ -1,6 +1,9 @@
 {
   "name": "omnifood",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.15.3"
+  },
   "private": true,
   "dependencies": {
     "normalize.css": "^8.0.1",
