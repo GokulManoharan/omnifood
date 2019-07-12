@@ -2,7 +2,7 @@
 /* Bog tablets to 1300px(Widths smalle than the 1140px row) */
 @media only screen and (max-width: 1200px) {
   .hero-text-box{
-      width: 100%;
+      width: 80%;
       padding:0 2%;
     }
 
@@ -60,7 +60,7 @@
   }
 
   .row,
-  .hero-text-box{ padding: o 4%; }
+  .hero-text-box{ padding: 0 4%; }
 
   .col{
     width: 100%;
